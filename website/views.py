@@ -7,10 +7,10 @@ def home_view(request):
     return render(request, 'home/index.html')
 
 def about_view(request):
-    return render(request,'about.html')
+    return render(request,'home/about.html')
 
 def contact_view(request):
-    return render(request,'contact.html') 
+    return render(request,'home/contact.html') 
 
 def test_view(request):
     return render(request, 'test.html')
