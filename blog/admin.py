@@ -7,4 +7,5 @@ class PostAdmin(admin.ModelAdmin):
     list_display = ('title','status','published_date','created_date')
     search_fields = ['title', 'content']
     list_filter = ('status',)
+    
 admin.site.register(Post,PostAdmin)
